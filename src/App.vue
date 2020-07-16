@@ -57,6 +57,7 @@
     <div class="center"  id="tentang">
       <div class="container">
         <h1>Tentang CluTik </h1>
+        <p>Coming Soon...</p>
       </div>
     </div>
 
@@ -69,6 +70,7 @@
     <div class="center" id="kegiatan">
       <div class="container">
         <h1>Kegiatan & Fasilitas</h1>
+        <p>Coming Soon...</p>
       </div>
     </div>
 
@@ -81,6 +83,7 @@
     <div class="center" id="tentangweb">
       <div class="container">
         <h1>Tentang Website Ini</h1>
+        <p>Coming Soon...</p>
       </div>
     </div>
   </div>
