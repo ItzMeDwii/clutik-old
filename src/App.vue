@@ -8,7 +8,7 @@
     <div id="nav">
       <nav class="py-2 navbar fixed-top navbar-expand-lg navbar-dark default-color">
         <div class="container">
-          <a class="navbar-brand font-weight-bold" href="/"> DwiiUnknown </a>
+          <a class="navbar-brand font-weight-bold" href="/"><img src="https://cdn.discordapp.com/attachments/521473681566990340/733234555992932403/1594885926650.png" width="64px"></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
                 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -16,15 +16,11 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav mr-auto">
             <li class="nav-item">
-              <a class="nav-link" href="#"><router-link to="/">Home</router-link></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#"><router-link to="/about">About</router-link></a>
+              <a class="nav-link" href="#"></a>
             </li>
           </ul>
           <ul class="navbar-nav ml-auto">
             <ThemeChanger/>
-            <LocaleChanger/>
           </ul>
         </div>
         </div>
@@ -36,8 +32,8 @@
      * over a router.
     -->
     <div class="center">
-      <div class="container">
-        <router-view></router-view>
+      <div class="container" id="main">
+        
       </div>
     </div>
   </div>
@@ -54,7 +50,7 @@
   /**
    * You can use `@/` as an equivalent for `./src`
    */
-  import LocaleChanger from "@/components/LocaleChanger.vue";
+  //import LocaleChanger from "@/components/LocaleChanger.vue";
   import ThemeChanger from "@/components/ThemeChanger.vue";
 
   /**
@@ -64,7 +60,6 @@
   @Component({
     name: "App",
     components: {
-      LocaleChanger,
       ThemeChanger
     }
   })

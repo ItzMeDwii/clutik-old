@@ -15,7 +15,7 @@
     "types": [
       "webpack-env",
       "webpack",
-      "webpack-env"
+      "jquery"
     ],
     "paths": {
       "@/*": [
