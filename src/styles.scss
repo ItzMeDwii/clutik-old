@@ -7,7 +7,7 @@
     --text-color: #000000;
     --navbar-color: #f2f2f2;
     --link-color: #0099CC;
-    --button-color: #33b5e5;
+    --button-color: #ffffff;
   }
   
   [theme="light"] {
@@ -16,7 +16,7 @@
     --text-color: #000000;
     --navbar-color: #f2f2f2;
     --link-color: #0099CC;
-    --button-color: #33b5e5;
+    --button-color: #ffffff;
   }
   
   [theme="dark"] {
@@ -25,7 +25,7 @@
     --text-color: #ffffff;
     --navbar-color: #242424;
     --link-color: #33b5e5;
-    --button-color: #0099CC;
+    --button-color: #212121;
 
     a.dropdown-item:hover {
         background-color: #000000;
@@ -87,6 +87,7 @@ a {
 
 .btn {
   background-color: var(--button-color) !important;
+  color: var(--text-color) !important;
 }
 
 ::-webkit-scrollbar-track {
