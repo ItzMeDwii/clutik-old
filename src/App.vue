@@ -16,13 +16,13 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav mr-auto">
             <li class="nav-item mx-1">
-              <a class="nav-link btn btn-dark" v-scroll-to="'#home'" href="#">Home</a>
+              <a class="nav-link border rounded" v-scroll-to="'#home'" href="#">Home</a>
             </li>
             <li class="nav-item mx-1">
-              <a class="nav-link btn btn-dark" v-scroll-to="'#tentang'" href="#">Tentang</a>
+              <a class="nav-link border rounded" v-scroll-to="'#tentang'" href="#">Tentang</a>
             </li>
             <li class="nav-item mx-1">
-              <a class="nav-link btn btn-dark" v-scroll-to="'#kegiatan'" href="#">Kegiatan & Fasilitas</a>
+              <a class="nav-link border rounded" v-scroll-to="'#kegiatan'" href="#">Kegiatan & Fasilitas</a>
             </li>                                   
           </ul>
           <ul class="navbar-nav ml-auto">
