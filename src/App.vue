@@ -23,6 +23,9 @@
             </li>
             <li class="nav-item mx-1">
               <a class="nav-link border rounded" v-scroll-to="'#kegiatan'" href="#">Kegiatan & Fasilitas</a>
+            </li>  
+            <li class="nav-item mx-1">
+              <a class="nav-link border rounded" v-scroll-to="'#tentangweb'" href="#">Tentang Website</a>
             </li>                                   
           </ul>
           <ul class="navbar-nav ml-auto">
@@ -75,9 +78,9 @@
     </div>
     <br/>
 
-    <div class="center" id="content3">
+    <div class="center" id="tentangweb">
       <div class="container">
-        <h1>Coming Soon</h1>
+        <h1>Tentang Website Ini</h1>
       </div>
     </div>
   </div>
