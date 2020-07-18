@@ -31,9 +31,9 @@
             
             const arrey = [];
 
-            for (let i = 1; i < 17; i++) {
+            for (let i = 1; i < 21; i++) {
 
-            arrey.push("<img class='slideimages' width='90%' src='https://dwii.me/clutik/assets/"+ i +".jpg'>");
+            arrey.push("<img class='slideimages' width='85%' src='https://dwii.me/clutik/assets/"+ i +".jpg'>");
 
             }
 
@@ -67,7 +67,7 @@
   slideIndex++;
   if (slideIndex > x.length) {slideIndex = 1}
   x[slideIndex-1].style.display = "block";
-  setTimeout(carousel, 3000);
+  setTimeout(carousel, 5000);
 }
 
 carousel();
