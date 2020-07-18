@@ -22,7 +22,7 @@
               <a class="nav-link border rounded" v-scroll-to="'#tentang'" href="#">Tentang</a>
             </li>
             <li class="nav-item mx-1">
-              <a class="nav-link border rounded" v-scroll-to="'#kegiatan'" href="#">Kegiatan & Fasilitas</a>
+              <a class="nav-link border rounded" v-scroll-to="'#kegiatan'" href="#">Kegiatan</a>
             </li>  
             <li class="nav-item mx-1">
               <a class="nav-link border rounded" v-scroll-to="'#tentangweb'" href="#">Tentang Website</a>
@@ -56,7 +56,7 @@
 
     <div class="center"  id="tentang">
       <div class="container">
-        <h1>Tentang CluTik </h1>
+        <h1>Tentang CluTik</h1>
         <p>Coming Soon...</p>
       </div>
     </div>
@@ -69,7 +69,7 @@
 
     <div class="center" id="kegiatan">
       <div class="container">
-        <h1>Kegiatan & Fasilitas</h1>
+        <h1>Kegiatan CluTik</h1>
         <Slideshow/>
       </div>
     </div>

@@ -4,11 +4,13 @@
  * discovering what Vue can do.
  -->
 <template>
-<div id="yes" class="mt-5">
+<div id="yes" class="center">
 <button class="btn btn-dark float-left" onclick="plusDivs(-1)"><i class="fas fa-angle-double-left fa-lg"></i></button>
-<button class="btn btn-dark float-right"  onclick="plusDivs(+1)"><i class="fas fa-angle-double-right fa-lg"></i></button>
+
     <div id="slideshow">
     </div>
+
+    <button class="btn btn-dark float-right"  onclick="plusDivs(+1)"><i class="fas fa-angle-double-right fa-lg"></i></button>
     </div>
 </template>
 
@@ -31,7 +33,7 @@
 
             for (let i = 1; i < 17; i++) {
 
-            arrey.push("<img class='slideimages' width='80%' src='https://dwii.me/clutik/assets/"+ i +".jpg'>");
+            arrey.push("<img class='slideimages' width='90%' src='https://dwii.me/clutik/assets/"+ i +".jpg'>");
 
             }
 
@@ -55,6 +57,20 @@
       
       showDivs(slideIndex);
 
+
+      function carousel() {
+  let i;
+  const x = document.getElementsByClassName("slideimages");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  slideIndex++;
+  if (slideIndex > x.length) {slideIndex = 1}
+  x[slideIndex-1].style.display = "block";
+  setTimeout(carousel, 3000);
+}
+
+carousel();
 
         }
     })
