@@ -52,12 +52,12 @@
     </div>
 
     <br/>
-    <div class="container">
+    <div class="container" id="tentang">
       <hr/>
     </div>
     <br/>
 
-    <div class="center"  id="tentang">
+    <div class="center">
       <div class="container">
         <h1>Tentang CluTik</h1>
         <br />
@@ -72,12 +72,12 @@ Visi CLUTIK : membentuk pribadi yang sadar akan pentingnya penggunaan teknologi 
     </div>
 
     <br/>
-    <div class="container">
+    <div class="container" id="kegiatan">
       <hr/>
     </div>
     <br/>
 
-    <div class="center" id="kegiatan">
+    <div class="center">
       <div class="container">
         <h1>Kegiatan CluTik</h1>
         <Slideshow/>
@@ -85,12 +85,12 @@ Visi CLUTIK : membentuk pribadi yang sadar akan pentingnya penggunaan teknologi 
     </div>
 
     <br/>
-    <div class="container">
+    <div class="container" id="tentangweb">
       <hr/>
     </div>
     <br/>
 
-    <div class="center" id="tentangweb">
+    <div class="center" >
       <div class="container">
         <h1>Tentang Website Ini</h1>
         <br>
