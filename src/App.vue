@@ -44,7 +44,7 @@
       <div class="container">
           <img alt="Clutik logo" style="height: 220px; width: 220px" src="https://cdn.discordapp.com/attachments/521473681566990340/733234555992932403/1594885926650.png">
           <h1>Selamat Datang di Club TIK</h1>
-          <p>SMA Negeri 2 Kota Mojokerto</p>
+          <p>SMA Negeri 2 Kota Mojokerto.</p>
       </div>
     </div>
 
@@ -70,7 +70,7 @@
     <div class="center" id="kegiatan">
       <div class="container">
         <h1>Kegiatan & Fasilitas</h1>
-        <p>Coming Soon...</p>
+        <Slideshow/>
       </div>
     </div>
 
@@ -97,7 +97,6 @@
 <script lang="ts">
   import Vue from "vue"
   import {Component} from "vue-property-decorator"
-
   import ScrollTo from "vue-scrollto"
   Vue.use(ScrollTo);
   
@@ -106,6 +105,7 @@
    */
   //import LocaleChanger from "@/components/LocaleChanger.vue";
   import ThemeChanger from "@/components/ThemeChanger.vue";
+  import Slideshow from "@/components/Slideshow.vue";
 
   /**
    * @Component decorator is used to declare a Vue Component
@@ -114,8 +114,10 @@
   @Component({
     name: "App",
     components: {
-      ThemeChanger
+      ThemeChanger,
+      Slideshow
     }
   })
-  export default class App extends Vue {}
+  export default class App extends Vue {
+  }
 </script>

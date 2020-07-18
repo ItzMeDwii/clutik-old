@@ -11,7 +11,7 @@ import App from './App.vue'
  * Import the file if you want your website works as a PWA (Progressive Web App).
  * Check more [here](https://en.wikipedia.org/wiki/Progressive_web_application)
  */
-import './registerServiceWorker'
+//import './registerServiceWorker'
 
 import 'jquery'
 import 'popper.js'
