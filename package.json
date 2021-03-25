@@ -28,7 +28,7 @@
   },
   "devDependencies": {
     "@types/jquery": "^3.3.38",
-    "@types/webpack": "^4.41.17",
+    "@types/webpack": "^5.0.0",
     "@typescript-eslint/eslint-plugin": "^2.26.0",
     "@typescript-eslint/parser": "^2.26.0",
     "@vue/cli-plugin-babel": "^4.4.4",
