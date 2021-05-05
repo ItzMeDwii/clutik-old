@@ -11,7 +11,7 @@
     "start": "vue-cli-service serve --open"
   },
   "dependencies": {
-    "bootstrap": "^4.4.1",
+    "bootstrap": "^5.0.0",
     "bootswatch": "^4.4.1",
     "core-js": "^3.6.4",
     "jquery": "^3.5.0",
