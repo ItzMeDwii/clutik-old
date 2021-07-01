@@ -80,7 +80,20 @@ Visi CLUTIK : membentuk pribadi yang sadar akan pentingnya penggunaan teknologi 
     <div class="center">
       <div class="container">
         <h1>Kegiatan CluTik</h1>
-        <Slideshow/>
+        <div class="row mt-5">
+          <div class="col-6 mb-4">
+            <img class="img-fluid" height="253" width="450" src="/img/1.jpg">
+          </div>
+          <div class="col-6">
+            <img class="img-fluid" height="253" width="450" src="/img/2.jpg">
+          </div>
+          <div class="col-6">
+            <img class="img-fluid" height="253" width="450" src="/img/3.jpg">
+          </div>
+          <div class="col-6">
+            <img height="253" width="450" src="/img/4.jpg">
+          </div>
+        </div>
       </div>
     </div>
 
@@ -184,7 +197,7 @@ Visi CLUTIK : membentuk pribadi yang sadar akan pentingnya penggunaan teknologi 
    */
   //import LocaleChanger from "@/components/LocaleChanger.vue";
   import ThemeChanger from "@/components/ThemeChanger.vue";
-  import Slideshow from "@/components/Slideshow.vue";
+  // import Slideshow from "@/components/Slideshow.vue";
 
   /**
    * @Component decorator is used to declare a Vue Component
@@ -194,7 +207,7 @@ Visi CLUTIK : membentuk pribadi yang sadar akan pentingnya penggunaan teknologi 
     name: "App",
     components: {
       ThemeChanger,
-      Slideshow
+      // Slideshow
     }
   })
   export default class App extends Vue {
